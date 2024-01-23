@@ -7,5 +7,11 @@ int main()
 
     ptr = &x;
     *ptr = 0;
-    printf("%d", x);
+    printf("%d \n", x);
+    printf("%d \n", ptr);
+
+    int **pptr = &ptr;
+
+
+    printf("%d", **pptr);
 }
