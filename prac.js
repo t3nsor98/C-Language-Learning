@@ -1,8 +1,5 @@
-function foo() {
-    if (true) {
-        var x = 5;
-    }
-    console.log(x);
+function watermelon(n) {
+    return n % 2 === 0 ? "YES" : "NO";
 }
 
-foo();
+watermelon(8);
