@@ -1,5 +1,5 @@
-function watermelon(n) {
-    return n % 2 === 0 ? "YES" : "NO";
+function hello(name) {
+    console.log("Hello " + name);
 }
 
-watermelon(8);
+hello("Digbijaya");
