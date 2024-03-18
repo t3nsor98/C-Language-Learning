@@ -1,5 +1,3 @@
-function hello(name) {
-    console.log("Hello " + name);
+for(let i = o; i<5; i++) {
+  
 }
-
-hello("Digbijaya");
